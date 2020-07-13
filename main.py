@@ -29,6 +29,7 @@ def get_product_info(url):
     html = BeautifulSoup(text)
 
     title = html.find('h1', { 'class': 'product_title entry-title'}).text
+    price = html.find('span', { 'class': 'woocommerce-Price-amount amount' }).text
     detail = html.find('div', { 'class': 'woocommerce-product-details__short-description'})
     for element in detail.find_all('p'):
         element.append('\n')
@@ -51,6 +52,7 @@ def get_product_info(url):
 
     info['title'] = title
     info['url'] = url
+    info['price'] = price
 
     return info
 
