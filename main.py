@@ -5,22 +5,29 @@ import json
 import os
 
 def get_product_list():
-    PRODUCT_LIST_URL = f'https://goodereader.com/blog/product-category/e-readers?orderby=price'
-    response = requests.get(PRODUCT_LIST_URL)
-
-    html = BeautifulSoup(response.text)
-    links = html.find_all('a')
-
     all_links = set()
+    page = 1
 
-    for link in links:
-        if not 'href' in link.attrs:
-            continue
-        href = link.attrs['href']
+    while True:
+        PRODUCT_LIST_URL = f'https://goodereader.com/blog/product-category/e-readers/page/{page}/?orderby=price'
+        response = requests.get(PRODUCT_LIST_URL)
+        text = response.text
 
-        if not href.startswith('https://goodereader.com/blog/product/'):
-            continue
-        all_links.add(href)
+        if 'Not found, error 404' in text:
+            break
+
+        html = BeautifulSoup(text)
+        links = html.find_all('a')
+
+        for link in links:
+            if not 'href' in link.attrs:
+                continue
+            href = link.attrs['href']
+
+            if not href.startswith('https://goodereader.com/blog/product/'):
+                continue
+            all_links.add(href)
+        page += 1
 
     return list(all_links)
 
@@ -31,6 +38,8 @@ def get_product_info(url):
     title = html.find('h1', { 'class': 'product_title entry-title'}).text
     price = html.find('span', { 'class': 'woocommerce-Price-amount amount' }).text
     detail = html.find('div', { 'class': 'woocommerce-product-details__short-description'})
+    if not detail:
+        return
     for element in detail.find_all('p'):
         element.append('\n')
     text = detail.text
@@ -64,7 +73,9 @@ def get_all_product_info():
             return json.loads(text)
 
     all_products = []
-    for product in get_product_list():
+    product_urls = get_product_list()
+    print(f'Found {len(product_urls)} products')
+    for product in product_urls:
         info = get_product_info(product)
         if not info:
             continue
