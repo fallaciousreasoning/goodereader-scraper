@@ -10,7 +10,7 @@ Install requirements:
 
 Run the program:
 
-    python3 filter.py --query "ppi=300;waterproof=ipx;color temperature=Yes" --print price,title,weight --sort price,weight
+    python3 filter.py --query "ppi=300;waterproof=ipx;color temperature=Yes" --print price,weight,title --sort price,weight
 
 This will filter to ereaders
 
@@ -25,6 +25,21 @@ The results will be sorted by
 
     1. Price
     2. then weight, where the price is the same.
+
+It will generate the following output:
+```
++---------+--------+---------------------------------------------------------+
+| price   | weight | title                                                   |
++---------+--------+---------------------------------------------------------+
+| $249.99 | 192 g  | Kobo Libra H2O                                          |
+| $259.99 | 300 g  | Pocketbook Inkpad 3 PRO                                 |
+| $269.99 | 275 g  | Barnes and Noble Nook Glowlight Plus 7.8                |
+| $314.99 | 188 g  | Amazon Kindle Oasis 3 with adjustable warm light (8GB)  |
+| $329.99 | 188 g  | Amazon Kindle Oasis 3 with adjustable warm light (32GB) |
+| $349.99 | 197 g  | Rakuten Kobo Forma e-Reader 8GB                         |
+| $389.99 | 197 g  | Rakuten Kobo Forma e-Reader 32GB                        |
++---------+--------+---------------------------------------------------------+
+```
 
 Note: The first time the program is run, it may take some time, as it has to scrape the products from the good ereader store. The cache is maintained indefinitely, but you can force a rescrape by deleting `cache/products.json`
 
