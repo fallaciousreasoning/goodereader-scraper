@@ -91,6 +91,3 @@ def get_all_product_info():
         f.write(json_text)
 
     return all_products
-
-
-print(get_all_product_info())
