@@ -1,6 +1,7 @@
 import argparse
 import re
 from scrape import get_all_product_info
+from prettytable import PrettyTable
 
 product_info = get_all_product_info()
 
@@ -52,17 +53,21 @@ def filter_readers(readers, query):
             yield reader
 
 def print_readers(readers, keys):
-    row_format = "{:>15}" * len(keys)
-    print(row_format.format(keys))
+    table = PrettyTable()
+    table.field_names = keys
+    for key in keys:
+        table.align[key] = 'l'
+
     for reader in readers:
         props = get_props(reader, keys)
-        print(row_format.format(props))
+        table.add_row(props)
+    print(table)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--query')
     parser.add_argument('--sort', default='price')
-    parser.add_argument('--print', default='price,title,url')
+    parser.add_argument('--print', default='price,title')
 
     args = parser.parse_args()
     query = parse_query(args.query)
@@ -72,4 +77,4 @@ if __name__ == "__main__":
     sorted_readers = sort_readers(readers, args.sort.split(','))
     filtered_readers = list(filter_readers(sorted_readers, query))
     print(f'Found {len(filtered_readers)} reader(s):')
-    print_readers(filter_readers, args.print.split(','))
+    print_readers(filtered_readers, args.print.split(','))
