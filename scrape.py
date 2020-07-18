@@ -51,7 +51,7 @@ def get_product_info(url):
         if not line:
             continue
             
-        parts = [part.strip() for part in re.split('：|:', line, 1)]
+        parts = [part.strip() for part in re.split('：|:|–', line, 1)]
         if len(parts) < 2:
             continue
         info[parts[0]] = parts[1]

@@ -30,6 +30,9 @@ def matches_query(ereader, query):
         if not key in ereader:
             return False
 
+        if query[key] is True:
+            continue
+
         ereader_value: str = ereader[key]
         matches = re.findall(query[key], ereader_value, re.IGNORECASE)
         if not matches:
