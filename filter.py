@@ -77,9 +77,14 @@ def print_readers(readers, keys):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--query')
-    parser.add_argument('--sort', default='price')
-    parser.add_argument('--print', default='price,title')
+    parser.add_argument('--query', help="""The query to apply to the list of ereaders. Seperate queries with a semicolon.
+        For example:
+            --query "ppi=300;color temperature=Yes;waterproof=ipx"
+        to get ereaders with a 300ppi display, which have color temperature and are waterproof.
+        
+        Note: Filters are used to generate a case insensitive regex, so Foo=bar will match 'bar' and 'BAr' and 'fooBaR'""")
+    parser.add_argument('--sort', default='price', help="The columns to sort by. For example --sort price,weight will sort by price and then weight, where the price is equal.")
+    parser.add_argument('--print', default='price,title', help="The columns to print as output. For example, --print price,url will print the price and url.")
 
     args = parser.parse_args()
     query = parse_query(args.query)
