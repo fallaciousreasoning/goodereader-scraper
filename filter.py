@@ -51,9 +51,12 @@ def filter_readers(readers, query):
         if matches_query(reader,query):
             yield reader
 
-def print_reader(reader, keys):
-    props = get_props(reader, keys)
-    print(' | '.join(props))
+def print_readers(readers, keys):
+    row_format = "{:>15}" * len(keys)
+    print(row_format.format(keys))
+    for reader in readers:
+        props = get_props(reader, keys)
+        print(row_format.format(props))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -69,5 +72,4 @@ if __name__ == "__main__":
     sorted_readers = sort_readers(readers, args.sort.split(','))
     filtered_readers = list(filter_readers(sorted_readers, query))
     print(f'Found {len(filtered_readers)} reader(s):')
-    for reader in filtered_readers:
-        print_reader(reader, args.print.split(','))
+    print_readers(filter_readers, args.print.split(','))
