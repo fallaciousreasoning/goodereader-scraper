@@ -51,8 +51,7 @@ def filter_readers(readers, query):
         if matches_query(reader,query):
             yield reader
 
-def print_reader(reader):
-    keys = ['title', 'price', 'url']
+def print_reader(reader, keys):
     props = get_props(reader, keys)
     print(' | '.join(props))
 
@@ -60,6 +59,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--query')
     parser.add_argument('--sort', default='price')
+    parser.add_argument('--print', default='price,title,url')
 
     args = parser.parse_args()
     query = parse_query(args.query)
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     filtered_readers = list(filter_readers(sorted_readers, query))
     print(f'Found {len(filtered_readers)} reader(s):')
     for reader in filtered_readers:
-        print_reader(reader)
+        print_reader(reader, args.print.split(','))
