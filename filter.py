@@ -2,8 +2,20 @@ import argparse
 import re
 from scrape import get_all_product_info
 from prettytable import PrettyTable
+import typing
 
 product_info = get_all_product_info()
+
+def lower_keys(items: typing.List[typing.Dict]):
+    result = []
+
+    for item in items:
+        new_item = {}
+        for key, value in item.items():
+            new_item[key.lower()] = value
+        result.append(new_item)
+
+    return result
 
 def get_props(reader, keys):
     return tuple(map(lambda k: reader[k], keys))
@@ -73,7 +85,7 @@ if __name__ == "__main__":
     query = parse_query(args.query)
     print(query)
     
-    readers = get_all_product_info()
+    readers = lower_keys(get_all_product_info())
     sorted_readers = sort_readers(readers, args.sort.split(','))
     filtered_readers = list(filter_readers(sorted_readers, query))
     print(f'Found {len(filtered_readers)} reader(s):')
