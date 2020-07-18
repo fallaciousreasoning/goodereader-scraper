@@ -1,4 +1,5 @@
 import argparse
+import re
 from scrape import get_all_product_info
 
 product_info = get_all_product_info()
@@ -29,8 +30,9 @@ def matches_query(ereader, query):
         if not key in ereader:
             return False
 
-        ereader_value = ereader[key]
-        if not query[key] in ereader_value:
+        ereader_value: str = ereader[key]
+        matches = re.findall(query[key], ereader_value, re.IGNORECASE)
+        if not matches:
             return False
 
     return True
