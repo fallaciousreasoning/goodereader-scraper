@@ -4,6 +4,9 @@ from scrape import get_all_product_info
 
 product_info = get_all_product_info()
 
+def get_props(reader, keys):
+    return tuple(map(lambda k: reader[k], keys))
+
 def parse_query(query):
     """Query looks like this: 
        "ppi=300;waterproof;backlight"
@@ -40,17 +43,31 @@ def matches_query(ereader, query):
 
     return True
 
+def sort_readers(readers, by):
+    return sorted(readers, key=lambda reader: get_props(reader, by))
 
-def filter(query):
-    for reader in product_info:
+def filter_readers(readers, query):
+    for reader in readers:
         if matches_query(reader,query):
-            yield reader['title']
+            yield reader
+
+def print_reader(reader):
+    keys = ['title', 'price', 'url']
+    props = get_props(reader, keys)
+    print(' | '.join(props))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--query')
+    parser.add_argument('--sort', default='price')
 
     args = parser.parse_args()
     query = parse_query(args.query)
     print(query)
-    print(list(filter(query)))
+    
+    readers = get_all_product_info()
+    sorted_readers = sort_readers(readers, args.sort.split(','))
+    filtered_readers = list(filter_readers(sorted_readers, query))
+    print(f'Found {len(filtered_readers)} reader(s):')
+    for reader in filtered_readers:
+        print_reader(reader)
