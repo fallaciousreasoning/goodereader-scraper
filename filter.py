@@ -18,7 +18,7 @@ def lower_keys(items: typing.List[typing.Dict]):
     return result
 
 def get_props(reader, keys):
-    return tuple(map(lambda k: reader[k], keys))
+    return tuple(map(lambda k: reader[k] if k in reader else '', keys))
 
 def parse_query(query):
     """Query looks like this: 
