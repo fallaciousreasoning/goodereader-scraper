@@ -67,7 +67,7 @@ def get_product_info(url):
     return info
 
 def get_all_product_info():
-    file_name = 'cache/products.json'
+    file_name = 'public/products.json'
     if os.path.exists(file_name):
         with open(file_name, 'r') as f:
             text = f.read()

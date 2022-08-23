@@ -6,6 +6,9 @@
     <meta name="description" content="A page for comparing various ereaders">
     <style>
         body {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
             background-color: #EEEEEE;
         }
 
@@ -16,24 +19,71 @@
             padding: 8px;
         }
 
+        .filter-set {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            white-space: nowrap;
+        }
+
+        #filters {
+            width: 300px;
+            flex-shrink: 0;
+        }
+
         #readersContainer {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 8px;
+            flex: 1;
         }
+
     </style>
 </head>
 
 <body>
+    <div id="filters" class="card">
+        <h2>Filters</h2>
+        <hr />
+    </div>
     <div id="readersContainer">
 
     </div>
 
     <script type="text/javascript">
         const readersContainer = document.getElementById('readersContainer');
+        const filters = document.getElementById('filters');
 
-        const isFiltered = (ereader, filters) => {
+        const getFilters = () => {
+            const filters = {};
+            const checkboxes = Array.from(document.querySelectorAll('input[type="checkbox"]'));
+            for (const checkbox of checkboxes) {
+                const property = checkbox.dataset.property;
+                const value = checkbox.dataset.value;
 
+                if (!checkbox.checked) continue;
+
+                if (!filters[property]) filters[property] = new Set();
+                filters[property].add(value);
+            }
+            return filters
+        }
+
+        const isHidden = (filters, reader) => {
+            for (const key of Object.keys(filters)) {
+                if (!(key in reader)) return true;
+
+                const filter = filters[key];
+                const value = reader[key];
+
+                if (filter instanceof Set) {
+                    if (!filter.has(value))
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         const createReader = (reader) => {
@@ -51,10 +101,45 @@
             </div>`
 
             readersContainer.appendChild(container);
+            
+            const listener = (e) => container.style = isHidden(getFilters(), reader) ? 'display: none' : undefined;
+            for (const input of Array.from(document.querySelectorAll('input')))
+                input.addEventListener('change', listener);
+        }
+
+        const createOptionFilter = (property, readers) => {
+            const options = new Set();
+            for (const reader of readers) {
+                if (!reader[property]) continue
+                options.add(reader[property]);
+            }
+
+            const optionsEl = document.createElement('div');
+            optionsEl.innerHTML = `
+            <details class='filter-set'>
+                <summary>
+                    <b>${property}</b>
+                </summary>
+                ${Array.from(options).map(o => `<label>
+                    <input data-property="${property}" data-value="${o}" type='checkbox' />
+                    ${o}
+                </label>`).join('\n')}
+            </details>
+            `
+            filters.appendChild(optionsEl);
         }
 
         const createTemplates = async () => {
             const data = await fetch('products.json').then(r => r.json());
+            createOptionFilter('Display', data);
+            createOptionFilter('Waterproof', data);
+            createOptionFilter('Data Connector', data);
+            createOptionFilter('Front Light', data);
+            createOptionFilter('Color Temperature', data);
+            createOptionFilter('Bluetooth', data);
+            createOptionFilter('WIFI', data);
+            createOptionFilter('Micro SD', data);
+
             for (const reader of data)
                 createReader(reader);
         }
