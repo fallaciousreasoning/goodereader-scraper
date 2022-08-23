@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 import os
+from multiprocessing import Pool
 
 def get_product_list():
     all_links = set()
@@ -16,7 +17,7 @@ def get_product_list():
         if 'Not found, error 404' in text:
             break
 
-        html = BeautifulSoup(text)
+        html = BeautifulSoup(text, features='lxml')
         links = html.find_all('a')
 
         for link in links:
@@ -72,16 +73,16 @@ def get_all_product_info():
             text = f.read()
             return json.loads(text)
 
-    all_products = []
+    all_products: List[dict]
+
+    print('Getting product urls')
     product_urls = get_product_list()
-    print(f'Found {len(product_urls)} products')
-    for product in product_urls:
-        info = get_product_info(product)
-        if not info:
-            continue
+    print(f'Found {len(product_urls)} products. Fetching info...')
 
-        all_products.append(info)
+    with Pool() as p:
+        all_products = list(filter(lambda x: x is not None, p.map(get_product_info, product_urls)))
 
+    print('Fetched!')
     json_text = json.dumps(all_products, indent=4)
 
     if not os.path.exists('cache'):
@@ -90,4 +91,5 @@ def get_all_product_info():
     with open(file_name, 'w') as f:
         f.write(json_text)
 
+    print('Done!')
     return all_products
