@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>eReaders</title>
+    <meta name="description" content="A page for comparing various ereaders">
+    <style>
+        body {
+            background-color: #EEEEEE;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            padding: 8px;
+        }
+
+        #readersContainer {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="readersContainer">
+
+    </div>
+
+    <script type="text/javascript">
+        const readersContainer = document.getElementById('readersContainer');
+
+        const isFiltered = (ereader, filters) => {
+
+        }
+
+        const createReader = (reader) => {
+            const excludedKeys = new Set(['title', 'url']);
+            const container = document.createElement('div');
+
+            const infoKeys = Object.keys(reader)
+                .filter(k => !excludedKeys.has(k))
+            container.innerHTML = `<div class="card">
+                <a href="${reader.url}" target="_blank" rel="noopener">${reader.title}</a>
+                <hr/>
+                ${infoKeys.map(k => `<div>
+                    <b>${k}: </b> ${reader[k]}
+                </div>`).join('\n')}
+            </div>`
+
+            readersContainer.appendChild(container);
+        }
+
+        const createTemplates = async () => {
+            const data = await fetch('products.json').then(r => r.json());
+            for (const reader of data)
+                createReader(reader);
+        }
+        createTemplates()
+    </script>
+</body>
+
+</html>
