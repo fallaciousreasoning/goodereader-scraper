@@ -33,7 +33,7 @@ def get_product_list():
 
 def get_product_info(url):
     text = requests.get(url).text
-    html = BeautifulSoup(text)
+    html = BeautifulSoup(text, features='lxml')
 
     title = html.find('h1', { 'class': 'product_title entry-title'}).text
     price = html.find('span', { 'class': 'woocommerce-Price-amount amount' }).text
