@@ -41,6 +41,16 @@ It will generate the following output:
 +---------+--------+---------------------------------------------------------+
 ```
 
-Note: The first time the program is run, it may take some time, as it has to scrape the products from the good ereader store. The cache is maintained indefinitely, but you can force a rescrape by deleting `cache/products.json`
+Note: The first time the program is run, it may take some time, as it has to scrape the products from the good ereader store. The cache is maintained indefinitely, but you can force a rescrape by deleting `public/products.json`
 
-To find the supported properties to query, have a look at the `cache/products.json` file.
+To find the supported properties to query, have a look at the `public/products.json` file.
+
+Force a rescrape:
+
+    python3 scrape.py
+
+Browse the WebUI
+
+   npx serve public
+
+Should start a server at http://localhost:3000
