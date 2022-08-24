@@ -10,6 +10,7 @@
             flex-direction: row;
             gap: 8px;
             background-color: #EEEEEE;
+            --card-width: 300px;
         }
 
         .card {
@@ -28,15 +29,32 @@
         }
 
         #filters {
-            width: 300px;
+            width: var(--card-width);
             flex-shrink: 0;
         }
 
         #readersContainer {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
             gap: 8px;
             flex: 1;
+        }
+
+        .horizontal-scroller {
+            width: 100%;
+            overflow-x: auto;
+
+            display: flex;
+            flex-direction: row;
+
+            scroll-snap-type: x mandatory;
+        }
+
+        .horizontal-scroller > img {
+            max-height: var(--card-width);
+            scroll-snap-align: center;
+            object-fit: cover;
+            aspect-ratio: 1;
         }
 
     </style>
@@ -105,14 +123,18 @@
         }
 
         const createReader = (reader) => {
-            const excludedKeys = new Set(['title', 'url']);
+            const excludedKeys = new Set(['title', 'url', 'images']);
             const container = document.createElement('div');
 
             const infoKeys = Object.keys(reader)
                 .filter(k => !excludedKeys.has(k))
             container.innerHTML = `<div class="card">
                 <a href="${reader.url}" target="_blank" rel="noopener">${reader.title}</a>
-                <hr/>
+                <hr>
+                <div class="horizontal-scroller">
+                    ${reader.images.map(src => `<img src='${src}'></img>`).join('\n')}
+                </div>
+                <hr>
                 <details>
                     <summary><b>Specs</b></summary>
                     ${infoKeys.map(k => `<div>
@@ -211,6 +233,7 @@
             createRangeFilter('PPI', data);
             createRangeFilter('price', data, value => parseFloat(value.replace(/[^0-9.]/g, '')));
             createRangeFilter('Internal Storage', data);
+            createRangeFilter('Battery', data, value => parseFloat(value.replace(/[^0-9.]/g, '')));
 
             for (const reader of data)
                 createReader(reader);
