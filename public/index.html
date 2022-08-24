@@ -206,8 +206,11 @@
             createOptionFilter('Digital Pen', data);
             createOptionFilter('Physical Page Turn Buttons', data);
             createOptionFilter('Operating System', data);
+            createOptionFilter('CPU', data);
+            createOptionFilter('RAM', data);
             createRangeFilter('PPI', data);
             createRangeFilter('price', data, value => parseFloat(value.replace(/[^0-9.]/g, '')));
+            createRangeFilter('Internal Storage', data);
 
             for (const reader of data)
                 createReader(reader);
