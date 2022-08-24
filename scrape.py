@@ -41,7 +41,7 @@ def get_product_info(url):
     detail = html.find('div', { 'class': 'woocommerce-product-details__short-description'})
     if not detail:
         return
-    for element in detail.find_all('p'):
+    for element in detail.find_all('p') + detail.find_all('br'):
         element.append('\n')
     text = detail.text
 
