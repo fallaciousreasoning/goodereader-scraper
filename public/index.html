@@ -95,9 +95,12 @@
             container.innerHTML = `<div class="card">
                 <a href="${reader.url}" target="_blank" rel="noopener">${reader.title}</a>
                 <hr/>
-                ${infoKeys.map(k => `<div>
-                    <b>${k}: </b> ${reader[k]}
-                </div>`).join('\n')}
+                <details>
+                    <summary><b>Specs</b></summary>
+                    ${infoKeys.map(k => `<div>
+                        <b>${k}: </b> ${reader[k]}
+                    </div>`).join('\n')}
+                </details>
             </div>`
 
             readersContainer.appendChild(container);
