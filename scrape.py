@@ -39,6 +39,8 @@ def get_product_info(url):
     title = html.find('h1', { 'class': 'product_title entry-title'}).text
     price = html.find('span', { 'class': 'woocommerce-Price-amount amount' }).text
     detail = html.find('div', { 'class': 'woocommerce-product-details__short-description'})
+    gallery = html.find('div', { 'class': 'woocommerce-product-gallery' })
+
     if not detail:
         return
     for element in detail.find_all('p') + detail.find_all('br'):
@@ -60,9 +62,18 @@ def get_product_info(url):
     if not len(info):
         return
 
+    images = []
+    if gallery:
+        for img in gallery.find_all('img'):
+            src = img.attrs['src']
+            if src.startswith('data:'): continue
+
+            images.append(src)
+
     info['title'] = title
     info['url'] = url
     info['price'] = price
+    info['images'] = images
 
     return info
 
