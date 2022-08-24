@@ -52,6 +52,7 @@
     </div>
 
     <script type="text/javascript">
+        const parsers = {};
         const readersContainer = document.getElementById('readersContainer');
         const filters = document.getElementById('filters');
 
@@ -67,6 +68,20 @@
                 if (!filters[property]) filters[property] = new Set();
                 filters[property].add(value);
             }
+
+            const ranges = Array.from(document.querySelectorAll('input[type="range"]'));
+            for (const range of ranges) {
+                const property = range.dataset.property;
+                const type = range.dataset.type;
+
+                const startingValue = range[type];
+                
+                // If the value hasn't been moved, ignore this filter.
+                if (startingValue === range.value) continue;
+
+                if (!filters[property]) filters[property] = {};
+                filters[property][type] = range.value;
+            }
             return filters
         }
 
@@ -75,12 +90,15 @@
                 if (!(key in reader)) return true;
 
                 const filter = filters[key];
-                const value = reader[key];
+                const value = key in parsers ? parsers[key](reader[key]) : reader[key];
 
                 if (filter instanceof Set) {
                     if (!filter.has(value))
                     return true;
                 }
+
+                if (('min' in filter) && filter.min > value) return true;
+                if (('max' in filter) && filter.max < value) return true;
             }
 
             return false;
@@ -132,6 +150,49 @@
             filters.appendChild(optionsEl);
         }
 
+        const createRangeFilter = (property, readers, toNumber=value => parseFloat(value)) => {
+            parsers[property] = toNumber;
+
+            let min = Number.MAX_SAFE_INTEGER;
+            let max = Number.MIN_SAFE_INTEGER;
+
+            for (const reader of readers) {
+                const value = reader[property]
+                if (!value) continue;
+
+                const number = toNumber(value)
+                if (number < min) min = number;
+                if (number > max) max = number;
+            }
+
+            const filterEl = document.createElement('div');
+            filterEl.innerHTML = `
+            <details class='filter-set'>
+                <summary><b>${property}</b></summary>
+                <label>
+                    Min
+                    <input data-property="${property}" data-type="min" min="${min}" max="${max}" step="1" type="range" value=${min} />
+                    <span class="min-value">${min}</span>
+                </label>
+                <label>
+                    Max
+                    <input data-property="${property}" data-type="max" min="${min}" max="${max}" step="1" type="range" value="${max}" />
+                    <span class="max-value">${max}</span>
+                </label>
+            </details>
+            `;
+
+            const minSlider = filterEl.querySelector('input[data-type="min"]');
+            const minSpan = filterEl.querySelector('span.min-value');
+            minSlider.addEventListener('change', e => minSpan.innerHTML = e.target.value);
+
+            const maxSlider = filterEl.querySelector('input[data-type="max"]');
+            const maxSpan = filterEl.querySelector('span.max-value');
+            maxSlider.addEventListener('change', e => maxSpan.innerHTML = e.target.value);
+
+            filters.appendChild(filterEl);
+        }
+
         const createTemplates = async () => {
             const data = await fetch('products.json').then(r => r.json());
             createOptionFilter('Display', data);
@@ -145,6 +206,8 @@
             createOptionFilter('Digital Pen', data);
             createOptionFilter('Physical Page Turn Buttons', data);
             createOptionFilter('Operating System', data);
+            createRangeFilter('PPI', data);
+            createRangeFilter('price', data, value => parseFloat(value.replace(/[^0-9.]/g, '')));
 
             for (const reader of data)
                 createReader(reader);
