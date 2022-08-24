@@ -66,9 +66,9 @@ def get_product_info(url):
 
     return info
 
-def get_all_product_info():
+def get_all_product_info(force_scrape=False):
     file_name = 'public/products.json'
-    if os.path.exists(file_name):
+    if os.path.exists(file_name) and not force_scrape:
         with open(file_name, 'r') as f:
             text = f.read()
             return json.loads(text)
@@ -85,11 +85,11 @@ def get_all_product_info():
     print('Fetched!')
     json_text = json.dumps(all_products, indent=4)
 
-    if not os.path.exists('cache'):
-        os.makedirs('cache')
-
     with open(file_name, 'w') as f:
         f.write(json_text)
 
     print('Done!')
     return all_products
+
+if __name__ == '__main__':
+    get_all_product_info(force_scrape=True)
