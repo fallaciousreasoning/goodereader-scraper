@@ -91,7 +91,7 @@ def get_all_product_info(force_scrape=False):
     print(f'Found {len(product_urls)} products. Fetching info...')
 
     with Pool() as p:
-        all_products = list(filter(lambda x: x is not None, p.map(get_product_info, product_urls)))
+        all_products = list(sorted(filter(lambda x: x is not None, p.map(get_product_info, product_urls)), key=lambda x: x['title']))
 
     print('Fetched!')
     json_text = json.dumps(all_products, indent=4)
