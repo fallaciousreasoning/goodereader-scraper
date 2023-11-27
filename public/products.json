@@ -14,19 +14,6 @@
         ]
     },
     {
-        "Writing canvas": "121mm x 68mm",
-        "Status window": "113mm x 18mmKEYBOARDFull-size mechanical CherryTM MX brown keyswitches",
-        "title": "2nd generation Freewrite E INK Typewriter",
-        "url": "https://goodereader.com/blog/product/2nd-generation-freewrite-e-ink-typewriter",
-        "price": "$799.99",
-        "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2021/01/01001042/Screenshot_2021-01-23-Freewrite-Smart-Typewriter-2nd-Gen-350x303.png",
-            "https://assets.goodereader.com/blog/uploads/images/2021/01/01001040/Screenshot_2021-01-23-Freewrite-Smart-Typewriter-2nd-Gen3-350x296.png",
-            "https://assets.goodereader.com/blog/uploads/images/2021/01/01001039/Screenshot_2021-01-23-Freewrite-Smart-Typewriter-2nd-Gen2-350x183.png",
-            "https://assets.goodereader.com/blog/uploads/images/2021/01/01001038/Screenshot_2021-01-23-Freewrite-Smart-Typewriter-2nd-Gen1-350x172.png"
-        ]
-    },
-    {
         "The lightest and most compact Kindle, now with a 300 ppi high-resolution display for sharp text and images.  Read comfortably with a glare-free, paper-like display. The adjustable front light and dark mode make reading effortless, day and night.  Get lost in your story. Tune out messages, emails, and social media with a distraction-free device specifically made for reading.  Now with extended battery life": "A single charge via USB-C lasts up to 6 weeks.  Now with 16 GB to store thousands of books \u2013 Double the storage capacity of the previous generation.  Find new stories \u2013 With Kindle Unlimited, get unlimited access to over 2 million titles, thousands of audiobooks, and more.  Designed with sustainability in mind. This Kindle uses 30-75% recycled plastics and 90% recycled magnesium and has 100% recyclable device packaging.",
         "title": "All-new Kindle 2022 release \u2013 With 300 PPI, USB-C and 16GB of Storage",
         "url": "https://goodereader.com/blog/product/all-new-kindle-2022-release-with-300-ppi-usb-c-and-16gb-of-storage",
@@ -1443,7 +1430,7 @@
     },
     {
         "CPU": "Qualcomm Octa-coreRAM: 6GBMemory: 128GBMicroSD: 2TBDisplay: 6.13\u2033 HD Carta1200 glass screen with flat cover-lensResolution: 824X1648 with 300 PPI>Light: Front Light with CTM (Warm and Cold)Wireless Connection: WiFi (2.4GHz + 5GHz)Bluetooth: 5.0Battery: 3950mAh Polymer Li-onSpeaker: YesMicrophone: YesRear camera: 16MP with LED flashOS: Android 11Google Play: YesDimensions: 159x80x8.0mmWeight: 170g",
-        "title": "Onyx Boox Palma e-Reader with free case",
+        "title": "Onyx Boox Palma e-Reader with free case (Black)",
         "url": "https://goodereader.com/blog/product/onyx-boox-palma-e-reader-with-free-case",
         "price": "$279.99",
         "images": [
@@ -2180,6 +2167,15 @@
             "https://assets.goodereader.com/blog/uploads/images/2022/05/22003140/2-24_1024x1024%402x-350x350.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/05/22003146/3-18_1024x1024%402x-350x350.webp",
             "https://assets.goodereader.com/blog/uploads/images/2022/05/22003149/41-lUS4d79L._AC_SL1000_1024x1024%402x-350x438.webp"
+        ]
+    },
+    {
+        "Dimension": "L: 191.85 mm, W: 139.2 mm, H: 6.8 mmWeight: 266 gDisplay: 7.8-inch Glass EPD (ePaper display), 300 PPIScreen Protector: FeelWrite 2 Self-Recovery Soft Film for Natural WritingMemory : 4 GB RAMStorage: 32 GB (The system takes up some space)Support Micro SD Card with Push-Push socketProcessor: RK3566 Quad-Core 1.8 GHzBattery: 2700 mAhConnectivity: USB-C 2.0, support Charger/Earphone/OTGWi-Fi 2.4 GHz + 5 GHz, 802.11a/b/g/n/acBluetooth 5.0OS: Pre-installed: Chauvet \u2014 A specialized designed Android 11-based system for those who writeDocument Format: Note (.note), PDF, EPUB, Word, Text (.txt), PNG, JPG, Comic book archive (.cbz), FictionBook2 (.fb2) and OpenXPS (.xps), and integrate with Kindle app which supports MOBI and other formats.",
+        "title": "Supernote A6 X2 Nomad e-note",
+        "url": "https://goodereader.com/blog/product/supernote-a6-x2-nomad-e-note",
+        "price": "$419.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2023/11/27001607/white_2_1280x-350x350.webp"
         ]
     },
     {
