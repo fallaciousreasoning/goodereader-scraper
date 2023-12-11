@@ -799,36 +799,6 @@
         ]
     },
     {
-        "Screen": "6 inch E Ink Carta Electronic Paper with capacitive touch panel",
-        "Resolution": "1072*1448 300 ppi",
-        "Weight": "195g",
-        "Storage Capacity": "32GB",
-        "SD": "Micro SD can be expanded up to 1TB",
-        "Turn the Page": "Touch the screen to turn pages/buttons to turn pages",
-        "Physical Button": "Yes",
-        "Screen light source": "Front light equipped with colour temperature",
-        "Port": "Type-C (support OTG)",
-        "CPU": "Quad-core processor 1.8GHz",
-        "RAM": "3GB",
-        "Wi-Fi": "Wi-Fi 2.4G+5G",
-        "Gyro": "Yes",
-        "OS": "Android 11.0",
-        "Bluetooth": "Bluetooth 5.0",
-        "Battery Capacity": "2200mAh",
-        "Supported Book formats": "EPUB, PDF, MOBI, DOC, TXT, FB2, RTF, HTML/HTM, DJVU/DJV, support image compression format: ZIP, RAR, CBZ",
-        "Built-in speaker and microphone": "Yes",
-        "title": "Hyread Gaze Mini E-Reader",
-        "url": "https://goodereader.com/blog/product/hyread-gaze-mini-e-reader",
-        "price": "$214.99",
-        "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2023/07/02123202/Screenshot-2023-07-02-at-09-31-05-%E3%80%90%E9%A0%90%E8%B3%BC%E5%95%86%E5%93%81%E3%80%91HyRead-Gaze-Mini-6%E5%90%8B%E9%9B%BB%E5%AD%90%E7%B4%99%E9%96%B1%E8%AE%80%E5%99%A8-HyRead-Gaze%E9%9B%BB%E5%AD%90%E7%B4%99%E9%96%B1%E8%AE%80%E5%99%A8-350x406.png",
-            "https://assets.goodereader.com/blog/uploads/images/2023/07/02123749/4-350x350.jpg",
-            "https://assets.goodereader.com/blog/uploads/images/2023/07/02123752/3-350x350.jpg",
-            "https://assets.goodereader.com/blog/uploads/images/2023/07/02123755/2-350x350.jpg",
-            "https://assets.goodereader.com/blog/uploads/images/2023/07/02123758/1-350x350.jpg"
-        ]
-    },
-    {
         "Display": "E INK Carta HD",
         "Screen Size": "7.8",
         "Display Resolution": "1404\u00d71872",
