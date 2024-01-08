@@ -384,6 +384,44 @@
         ]
     },
     {
+        "Display": "E INK Carta 1200",
+        "Screen Size": "7.0",
+        "PPI": "300 PPI B&W and 150 PPI Color",
+        "WACOM Active Digitizer": "No",
+        "Front Light": "Yes",
+        "Colour Temperature": "Yes",
+        "Processor": "2.3GHz octa-core processor",
+        "RAM": "4GB",
+        "Internal Storage": "64GB",
+        "Physical Page Turn Buttons": "YES",
+        "MicroSD": "Yes (1TB)",
+        "WIFI": "Yes",
+        "Operating System": "Google Android 11",
+        "Google Play": "Yes",
+        "Battery": "2,300 mAh",
+        "Digital Pen": "Yes (Capacitive)",
+        "Data Connector": "USB-C",
+        "Bluetooth": "5.0",
+        "Waterproof": "No",
+        "Audio": "via Bluetooth",
+        "Length": "136.2mm",
+        "Width": "155mm",
+        "Weight": "140g",
+        "title": "Bigme Pocketnote 2 Color e-reader with Kaleido 3",
+        "url": "https://goodereader.com/blog/product/bigme-pocketnote-2-color-e-reader-with-kaleido-3",
+        "price": "$299.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04031924/Screenshot-2024-01-04-at-00-07-35-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x318.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04031924/Screenshot-2024-01-04-at-00-07-35-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x318.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04031941/Screenshot-2024-01-04-at-00-07-46-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x281.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04031948/Screenshot-2024-01-04-at-00-08-03-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x291.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04031956/Screenshot-2024-01-04-at-00-08-11-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x274.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04032003/Screenshot-2024-01-04-at-00-08-20-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x225.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04032012/Screenshot-2024-01-04-at-00-08-40-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x256.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/04032021/Screenshot-2024-01-04-at-00-16-09-BIGME%E6%97%97%E8%88%B0%E6%96%B0%E5%93%81B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E6%99%BA%E8%83%BD%E5%8A%9E%E5%85%AC%E6%9C%ACmini%E7%94%B5%E7%BA%B8%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8%E7%94%B5%E5%AD%90%E9%98%85%E8%A7%88%E5%99%A8-%E9%9D%99%E8%B0%A7%E9%BB%91%E4%BF%9D%E6%8A%A4%E5%A5%97-B751C%E5%BD%A9%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F%E5%AE%98%E6%96%B9%E6%A0%87%E9%85%8D%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x235.jpg"
+        ]
+    },
+    {
         "CPU": "Quad Core ProcessorCPU Frequency: 1.8 GHzInternal Memory: 1 GB RAMInternal storage: 32 GBExpandable Storage: 1TBOperating system: Android 11 and Google PlayMicrophone: YesScreen: 6-inch E INK Carta HDResolution: 1024\u00d7758 212 PPIDocuments Formats: PDF,TXT,EPUB,HTML,HTM,AZW3,RTF,FB2,DOC,MOBI,PPT,XLSImage Formats: PNG,JPG(JPEG),BMPAudio Formats: WAV,MP3Expansion Interface: Type C port (support OTG)Battery: 1,300 mAh Lithium PolymerBuilt-in Wifi, Bluetooth, Speaker, Google Play Store, Fingerprint unlock function",
         "title": "Bigme Read e-reader",
         "url": "https://goodereader.com/blog/product/bigme-read-e-reader",
@@ -876,26 +914,6 @@
         "price": "$445.00",
         "images": [
             "https://assets.goodereader.com/blog/uploads/images/2023/07/02122620/Screenshot-2023-07-02-at-09-26-03-%E3%80%90%E9%A0%90%E8%B3%BC%E5%95%86%E5%93%81%E3%80%91Gaze-Note-Plus-CC-7.8%E5%90%8B%E5%85%A8%E5%B9%B3%E9%9D%A2%E5%BD%A9%E8%89%B2%E9%9B%BB%E5%AD%90%E7%B4%99%E9%96%B1%E8%AE%80%E5%99%A8-HyRead-Gaze%E9%9B%BB%E5%AD%90%E7%B4%99%E9%96%B1%E8%AE%80%E5%99%A8-350x317.jpg"
-        ]
-    },
-    {
-        "Resolution": "482\u00d7357(100 ppi@color display) 1448\u00d71072(300 ppi@black and white display)",
-        "Storage Capacity": "8G (after deducting the space used by the system, the actual usable space is displayed as about 4G)",
-        "Screen light": "Front light (with cold light)",
-        "CPU": "Quad-core processor 1.8 GHz",
-        "RAM": "2G DDR4",
-        "System interface supports": "Traditional Chinese, Simplified Chinese, English",
-        "Book Format": "ePub/PDF/TXT",
-        "Battery": "2000mAh fully charged in about 2 hours",
-        "title": "Hyread Gaze One SC Color e-reader",
-        "url": "https://goodereader.com/blog/product/hyread-gaze-one-sc-color-e-reader",
-        "price": "$249.99",
-        "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2022/11/26162713/202211141150221-350x350.png",
-            "https://assets.goodereader.com/blog/uploads/images/2022/11/26162739/008-350x350.jpg",
-            "https://assets.goodereader.com/blog/uploads/images/2022/11/26162743/011-350x350.jpg",
-            "https://assets.goodereader.com/blog/uploads/images/2022/11/26162748/014-350x350.png",
-            "https://assets.goodereader.com/blog/uploads/images/2022/11/26162756/Function_2-350x467.png"
         ]
     },
     {
@@ -2324,6 +2342,42 @@
             "https://assets.goodereader.com/blog/uploads/images/2022/01/21044704/1-23-350x233.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/01/21044709/2-19-350x234.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/01/21044714/3-17-350x234.jpg"
+        ]
+    },
+    {
+        "Display": "E INK Carta 1200",
+        "Screen Size": "7.0",
+        "Display Resolution": "1680\u00d71264",
+        "PPI": "300 PPI",
+        "WACOM Active Digitizer": "No",
+        "Front Light": "Yes",
+        "Color Temperature": "Yes",
+        "Processor": "ARM Cortex-A55 1.8 GHZ quad core processor",
+        "RAM": "2GB",
+        "Internal Storage": "64GB",
+        "Physical Page Turn Buttons": "YES",
+        "MicroSD": "No",
+        "WIFI": "Yes",
+        "Operating System": "Google Android 11",
+        "Battery": "2,300 mAh",
+        "Digital Pen": "No",
+        "Data Connector": "USB-C",
+        "Bluetooth": "5.1",
+        "Waterproof": "No",
+        "Audio": "Yes",
+        "Length": "159mm",
+        "Width": "141.1mm",
+        "Weight": "182g",
+        "title": "Xiaomi Moaan Mix 7S e-book reader",
+        "url": "https://goodereader.com/blog/product/xiaomi-moaan-mix-7s-e-book-reader",
+        "price": "$319.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181257/Screenshot-2024-01-02-at-14-32-27-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x342.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181405/Screenshot-2024-01-02-at-14-32-38-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x293.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181414/Screenshot-2024-01-02-at-14-32-59-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x263.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181424/Screenshot-2024-01-02-at-14-33-12-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x357.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181433/Screenshot-2024-01-02-at-14-33-31-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x359.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/01/02181442/Screenshot-2024-01-02-at-14-33-43-%E9%A1%BA%E4%B8%B0%E5%A2%A8%E6%A1%88Moaan-Mix7S%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A87%E8%8B%B1%E5%AF%B8300ppi%E5%A2%A8%E6%B0%B4%E5%B1%8F%E9%98%85%E8%A7%88%E5%99%A8%E6%99%BA%E8%83%BD%E5%B9%B3-%E8%B5%A4%E5%AD%90%E9%87%91-%E9%85%8D%E4%BB%B6%E7%A4%BC%E5%8C%85-%E4%B8%8D%E5%88%86%E6%9C%9F%E9%80%81%E7%BF%BB%E9%A1%B5%E5%99%A8%E3%80%90%E5%9B%BE%E7%89%87-%E4%BB%B7%E6%A0%BC-%E5%93%81%E7%89%8C-%E6%8A%A5%E4%BB%B7%E3%80%91-%E4%BA%AC%E4%B8%9C-350x246.jpg"
         ]
     },
     {
