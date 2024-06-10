@@ -722,6 +722,46 @@
         ]
     },
     {
+        "CPU": "2.4GHz Octa-core",
+        "RAM": "4GB LPDDR4X",
+        "Memory": "64GB",
+        "Display": "10.3\u2033 Carta1200 glass screen with flat cover-lens",
+        "Resolution": "2480 x 1860 300 PPI",
+        "Dual Touch": "Capacitive touch + Stylus touch",
+        "Light": "N/A",
+        "Wireless Connection": "WiFi (2.4GHz + 5GHz)",
+        "Bluetooth": "BT 5.0",
+        "Battery": "3700mAh Polymer Li-on",
+        "Slot": "USB-C (support OTG)",
+        "Speaker": "Dual speakers",
+        "Mic": "Yes",
+        "G-Sensor": "Yes",
+        "OS": "Android 12",
+        "title": "Onyx Boox Go 10.3 Tablet with 300 PPI",
+        "url": "https://goodereader.com/blog/product/onyx-boox-go-10-3-tablet-with-300-ppi",
+        "price": "$379.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215747/Go-10-1-1-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215810/Go-10-3-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215813/Magnetic-Case-cover-1-1-800x521.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215816/Magnetic-Case-cover-2-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215819/Magnetic-Case-cover-3-1-800x800.jpg"
+        ]
+    },
+    {
+        "CPU": "2.4GHz Octa-coreRAM: 4GB LPDDR4XMemory: 64GBSD Card: YesDisplay: 7\u2033 Kaleido 3 (4096 colors) Carta1200 glass screen with bezel frame (non-flat)Resolution: 1680 x 1264 (B/W 300 PPI, Color 150 PPI)Touch: capacitive touchLight: Front Light with CTM (Warm and Cold)Wireless Connection: WiFi (802.11b/g/n/ac) 2.4G + 5GBluetooth: BT 5.0Battery: 2300mAhSlot: USB-CSpeaker: YesMic: YesG-sensor: YesOS: Android 12",
+        "title": "Onyx Boox Go 7 Color e-reader",
+        "url": "https://goodereader.com/blog/product/onyx-boox-go-7-color-e-reader",
+        "price": "$249.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215147/Go-Color-7-Black-2-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215232/Go-Color-7-Black-1-1-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215235/Magnetic-Case-Cover-1-800x400.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215238/Magnetic-Case-Cover-3-800x800.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/05215241/Magnetic-Case-Cover-4-800x800.jpg"
+        ]
+    },
+    {
         "Screen": "13.3\u201d EInk Flexible Mobius EPD, 16 Grey Level (monochrome)Resolution: 1650\u00d72200 (207ppi)Touch: Capacitive touchFront Light with CTM (Warm and Cold)Port and Interface:\u00a0 Mini HDMI x1,\u00a0 USB Type C x 2, Standard VESA interface\uff0875 x 75mm\uff09",
         "title": "Onyx Boox Mira 13.3 E INK Monitor with Glowlight",
         "url": "https://goodereader.com/blog/product/onyx-boox-mira-13-3-e-ink-monitor",
