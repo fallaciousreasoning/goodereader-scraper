@@ -709,6 +709,30 @@
         ]
     },
     {
+        "Screen": "10.3-inches",
+        "Resolution": "1404\u00d71872 227 PPI",
+        "Light": "Warm and Cool",
+        "Processor": "1.8 GHz Quad-Core",
+        "Ram": "4GB",
+        "Storage": "64GB",
+        "SD": "1TB Max",
+        "WIFI": "6",
+        "Bluetooth": "5.2",
+        "Speakers": "Dual Speakers",
+        "Battery": "4600 mAh",
+        "Android": "11 + Google Play",
+        "title": "Meebook 103 \u2013 10.3-inch e-reader and e-note with free case",
+        "url": "https://goodereader.com/blog/product/meebook-103-10-3-inch-e-reader-and-e-note-with-free-case",
+        "price": "$359.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/25203900/P1250378-1-800x450.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/25201455/P1250376-800x450.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/25201502/P1250374-800x450.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/25201508/P1250370-800x450.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/06/25203842/meebook10case-800x590.jpg"
+        ]
+    },
+    {
         "6\u2033 E-ink Touchscreen": "300ppi (1448*1072) high-resolution screen , compared with 212 PPI\u00a0 Android 11\uff1aOpen Android system for installation of more third-party apps, abundant reading resources available.  High performance: With a quad-core processor,3GB ram and 32GB inner memory, more than 5000 books storage.  Eye protection: Built-in cold/warm colour temperature with 24 levels adjustment, E-ink screen reads like paper without light-emitting. More capacity: Card slot with massive expansion up to 1TB.",
         "title": "Meebook M6 \u2013 6-inch e-reader with Android 11 and Google Play",
         "url": "https://goodereader.com/blog/product/meebook-m6-6-inch-e-reader-with-android-11-and-google-play",
@@ -1219,7 +1243,7 @@
     },
     {
         "*A single charge on the eReader lasts up to 40 days, based on 30 minutes of reading per day with the front light at 30% brightness and WiFi and Bluetooth\u00ae wireless technology off.WaterproofIPX8": "up to 60 mins in 2 metres of waterFront LightComfortLight PRO \u2013 Adjustable brightness and colour temperature for blue light reductionCustomizabilityiType: 13 different fonts and over 50 font stylesDimensions144.6 x 161 x 8.3 mmWeight199.5 g",
-        "title": "Rakuten Kobo Libra Color",
+        "title": "Rakuten Kobo Libra Color e-Reader",
         "url": "https://goodereader.com/blog/product/rakuten-kobo-libra-color",
         "price": "$329.99",
         "images": [
