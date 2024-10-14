@@ -135,7 +135,13 @@
         "url": "https://goodereader.com/blog/product/amazon-kindle-scribe-10-2-inch-e-note-and-e-reader",
         "price": "$459.99",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2021/11/01001944/woocommerce-placeholder-750x750.png"
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10004914/71YyRvSRuL_AC_UF10001000_QL80_-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005045/1-8-750x643.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005048/2-6-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005051/3-6-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005055/4-5-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005059/5-5-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2022/09/10005103/6-2-750x750.jpg"
         ]
     },
     {
@@ -650,6 +656,21 @@
             "https://assets.goodereader.com/blog/uploads/images/2024/06/05215235/Magnetic-Case-Cover-1-750x375.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/06/05215238/Magnetic-Case-Cover-3-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/06/05215241/Magnetic-Case-Cover-4-750x750.jpg"
+        ]
+    },
+    {
+        "Screen": "13.3\u201d EInk Flexible Mobius EPD, 16 Grey Level (monochrome)",
+        "Resolution": "1650\u00d72200 (207ppi)",
+        "Touch": "Capacitive touch",
+        "Port and Interface": "Mini HDMI x1,\u00a0 USB Type C x 2, Standard VESA interface\uff0875 x 75mm\uff09",
+        "title": "Onyx Boox Mira 13.3 E INK Monitor with Glowlight",
+        "url": "https://goodereader.com/blog/product/onyx-boox-mira-13-3-e-ink-monitor",
+        "price": "$1,049.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2021/09/31232906/Mira-web_06-2-750x396.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2021/09/31232854/1-1-750x396.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2021/09/31232853/2-750x396.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2021/09/31232852/3-750x342.webp"
         ]
     },
     {
@@ -1207,6 +1228,24 @@
             "https://assets.goodereader.com/blog/uploads/images/2021/11/01005247/Screenshot_2020-03-21-reMarkable-2-reMarkable2-750x469.png",
             "https://assets.goodereader.com/blog/uploads/images/2021/11/01005246/Screenshot_2020-03-21-reMarkable-2-reMarkable3-750x469.png",
             "https://assets.goodereader.com/blog/uploads/images/2021/11/01005249/Screenshot_2020-03-21-reMarkable-2-reMarkable1-750x469.png"
+        ]
+    },
+    {
+        "Size and weight": "274.1 x 196.6 x 5.1 mm (10.8 x 7.8 x 0.20 inches)",
+        "11.8\u201d (4": "3 aspect ratio)",
+        "title": "Remarkable Paper Pro Color e-notebook",
+        "url": "https://goodereader.com/blog/product/remarkable-paper-pro-color-e-notebook",
+        "price": "$649.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011528/3ee58001b484af39c810d25e95ec6ea19ecb45bd-4000x4000-1-750x750.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011612/reMarkable-Paper-Pro-Marker-Plus-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011628/reMarkable-Paper-Pro-Packshot-Detail-display-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011644/reMarkable-Paper-Pro-Packshot-0-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011707/reMarkable-Paper-Pro-Packshot-1-750x750.png",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011735/reMarkable-Paper-Pro-Packshot-2-750x750.png",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011802/reMarkable-Paper-Pro-Packshot-3-750x750.png",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011819/reMarkable-Paper-Pro-Packshot-4-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/10/09011835/reMarkable-Paper-Pro-Packshot-5-750x750.jpg"
         ]
     },
     {
