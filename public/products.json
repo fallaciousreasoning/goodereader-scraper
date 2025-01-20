@@ -31,7 +31,7 @@
         "url": "https://goodereader.com/blog/product/all-new-amazon-kindle-e-reader-2024",
         "price": "$199.99",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2024/09/01040350/711zpVPxkaL_AC_SL1500_-750x769.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/09/15033113/ASSET_MMS_144152337-1-750x750.webp",
             "https://assets.goodereader.com/blog/uploads/images/2024/09/01040409/71TrT-8KyVL_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/09/01040413/81BlgzermQL_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/09/01040417/81DHdWRQ2dL_AC_SL1500_-750x750.jpg",
@@ -52,7 +52,7 @@
         "url": "https://goodereader.com/blog/product/all-new-amazon-kindle-paperwhite-12th-generation-16-gb",
         "price": "$235.00",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2024/11/01032549/51D5he3yCnL_AC_SL1000_-750x763.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/11/15032834/paper-750x763.webp",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01032605/71P53WO1bhL_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01032610/81xOFB2wLGL_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01032614/81pMr7pCPtL_AC_SL1500_-750x750.jpg",
@@ -74,7 +74,7 @@
         "url": "https://goodereader.com/blog/product/all-new-amazon-kindle-paperwhite-signature-edition-32-gb-2024",
         "price": "$279.99",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2024/11/01033512/71fq64IucYL_AC_SL1500_-750x762.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2024/11/15032719/710-budOI2L_AC_SL1500_.jpg-1-750x763.webp",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01033548/71GW2gqRdML_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01033552/71R9G2HJMsL_AC_SL1500_-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2024/11/01033556/81eqoumOE9L_AC_SL1500_-750x727.jpg",
@@ -199,7 +199,7 @@
         "url": "https://goodereader.com/blog/product/amazon-kindle-scribe-10-2-inch-e-note-and-e-reader",
         "price": "$459.99",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2022/09/10004914/71YyRvSRuL_AC_UF10001000_QL80_-750x750.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/14144300/kindle-scribe-750x422.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/09/10005045/1-8-750x643.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/09/10005048/2-6-750x750.jpg",
             "https://assets.goodereader.com/blog/uploads/images/2022/09/10005051/3-6-750x750.jpg",
@@ -768,6 +768,29 @@
         ]
     },
     {
+        "Screen": "13.3\u2033 Carta 1300 glass screen with flat cover-lens",
+        "Resolution": "3200 x 2400 (300 ppi)",
+        "Touch": "BOOX stylus touch (4,096 levels of pressure sensitivity) + capacitive touch",
+        "CPU": "2.8Ghz Octa-core + BSR",
+        "RAM": "128GB",
+        "OS": "Android 13",
+        "Battery": "3,700mAh Li-ion Polymer",
+        "Dimensions": "287.5 x 243 x 4.6 mm (11.3\u2033 x 9.6\u2033 x 0.18\u2033)",
+        "Weight": "Approx. 615 g (21.7 oz)",
+        "Connectivity": "Wi-Fi + BT 5.0",
+        "title": "Onyx Boox Note Max \u2013 13.3 e-notebook with Google Play",
+        "url": "https://goodereader.com/blog/product/onyx-boox-note-max",
+        "price": "$849.99",
+        "images": [
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090340/04_de04fc1c-d5e2-4252-9fc1-2490dde8db08-750x750.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090434/05_e831ffc5-0e19-44d7-b971-7ab48d546b79-750x750.webp",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090624/Magnetic-Case-cover-1-750x702.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090628/Keyboard-Case-cover-2-750x482.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090632/Keyboard-Case-cover-1-750x520.jpg",
+            "https://assets.goodereader.com/blog/uploads/images/2025/01/15090636/Note-Max-1-750x750.jpg"
+        ]
+    },
+    {
         "Screen": "6.13\u2033 HD Carta 1200 glass screen with flat cover-lens",
         "Resolution": "824*1648 (300 ppi)",
         "Touch": "Capative touch",
@@ -1140,7 +1163,7 @@
         "url": "https://goodereader.com/blog/product/pocketbook-era-color",
         "price": "$299.99",
         "images": [
-            "https://assets.goodereader.com/blog/uploads/images/2024/03/19190541/700K3-Era-Color-Stormy-Sea-01-Comics-750x866.png",
+            "https://assets.goodereader.com/blog/uploads/images/2024/03/15033350/700K3-Era-Color-Stormy-Sea-01-Comics.png-1-750x866.webp",
             "https://assets.goodereader.com/blog/uploads/images/2024/03/19190658/700K3-Era-Color-Stormy-Sea-01-Medical-750x866.png",
             "https://assets.goodereader.com/blog/uploads/images/2024/03/19190635/700K3-Era-Color-Stormy-Sea-01-Little-Ready-750x866.png",
             "https://assets.goodereader.com/blog/uploads/images/2024/03/19190618/700K3-Era-Color-Stormy-Sea-01-History-of-Pop-Art-750x866.png",
